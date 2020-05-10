@@ -15,7 +15,7 @@ namespace System.IO.Packaging
     /// Abstract Base class for the Package.
     /// This is a part of the Packaging Layer APIs
     /// </summary>
-    public abstract class Package : IDisposable
+    public abstract class Package : IPackage, IDisposable
     {
         #region Protected Constructor
 
